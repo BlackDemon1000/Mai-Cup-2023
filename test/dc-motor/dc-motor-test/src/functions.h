@@ -4,7 +4,7 @@
 ///               Start of the Functions           ///
 //////////////////////////////////////////////////////
 
-void setpinmodes() {
+void setpinmodes() { //setting the pinmodes of the pins from pins.h
   pinMode(motorPin1,OUTPUT);
   pinMode(motorPin2,OUTPUT);
 }
