@@ -1,9 +1,9 @@
-#include <Ardunino.h>
-#include "pins.h"
+#include <Arduino.h>
+#include  "pins.h"
+#include "functions.h"
 
 void setup(){
-  pinMode(motorPin1,OUTPUT);
-  pinMode(motorPin2,OUTPUT);
+  setpinmodes();
 }
 void motorStop(){
   digitalWrite(motorPin1,LOW);

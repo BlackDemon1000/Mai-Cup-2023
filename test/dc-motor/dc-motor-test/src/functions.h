@@ -1,0 +1,10 @@
+#include "pins.h"
+
+//////////////////////////////////////////////////////
+///               Start of the Functions           ///
+//////////////////////////////////////////////////////
+
+void setpinmodes() {
+  pinMode(motorPin1,OUTPUT);
+  pinMode(motorPin2,OUTPUT);
+}
