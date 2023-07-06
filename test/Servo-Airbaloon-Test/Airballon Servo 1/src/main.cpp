@@ -1,18 +1,22 @@
+#include <Servo.h>
 #include <Arduino.h>
 
-// put function declarations here:
-int myFunction(int, int);
+Servo name_servo;
+
+int servo_position = 0;
 
 void setup() {
-  // put your setup code here, to run once:
-  int result = myFunction(2, 3);
+
+  name_servo.attach (6);
+
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
-}
+  name_servo.write(160);
+  while(true) {
+    //Servo in Baloon = 160
+    //Servo Idle = 30
+  }
 
-// put function definitions here:
-int myFunction(int x, int y) {
-  return x + y;
+  
 }
