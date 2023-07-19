@@ -1,4 +1,4 @@
 # Mai-Cup-2023
-Repo for a School projekt
+Repo for a school project
 
-Discription following soon!
+Description following soon!
